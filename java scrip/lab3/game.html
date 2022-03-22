@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+    so_bi_mat = Math.round(Math.random()*100);
+    while(true){
+        so_doan = prompt("Số cần đoán");
+if(so_doan == so_bi_mat){
+     alert("Bạn đoán đúng")
+break;
+}
+else if(so_doan > so_bi_mat){
+    alert("số bí mật nhỏ hơn số của bạn")
+}
+else{
+    alert("số bí mật lớn hơn số của bạn")
+}
+
+    }
+</Script>
+
+</body>
+</html>

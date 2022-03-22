@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=prompt(a);
+        var b=prompt(b);
+        var c=prompt(c);
+        var x = -b/(2*a);
+        var nghiem1 = (-b + Math.sqrt(delta))/(2*a);
+        var nghiem2 = (-b - Math.sqrt(delta))/(2*a);
+        var delta=Math.pow(b,2) - (4 * a * c);
+        if(delta < 0){
+            alert("vô ngiệm")
+        }
+        else if(delta == 0){
+            alert("phương trình cố nghiệm kép" +x)
+        }
+        else{
+            alert("phương trình có 2 nghiệm phân biệt" +nghiem1,nghiem2)
+        }
+    </script>
+</body>
+</html>

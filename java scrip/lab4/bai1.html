@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var ptb2 = new Object();
+        ptb2.a = prompt("hệ số a");
+        ptb2.b = prompt("hệ số b");
+        ptb2.c = prompt("hệ số c");
+    
+        ptb2.giai = function(){
+       
+          
+          var delta= this.b*this.b -(4*this.a*this.c);
+        var x1 =-this.b + Math.sqrt(delta)/(2*this.a);
+        var x2 =-this.b - Math.sqrt(delta)/(2*this.a);
+        var x0 =-this.b/2*this.a;
+          
+           if(delta>0){
+               alert("phương trình có 2 nghiệm phân biệt x1= " +x1);
+               alert("phương trình có 2 nghiệm phân biệt x2= " +x2);
+               
+           }else if(delta<0){
+               alert("phương trình vô nghiệm");
+           }
+        
+           else{
+            alert("phương trình có nghiệm kép x= "+x0);
+           }
+
+            }
+        
+    
+
+    </script>
+    <buttton onclick = "ptb2.giai()">Giải</buttton>
+</body>
+</html>

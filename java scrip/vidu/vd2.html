@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function stu(ten ,masv,lop, chuyennganh){
+         this.ten = ten;
+         this.masv =masv;
+         this.lop = lop;
+         this.chuyennganh=chuyennganh;
+         this.speak = function(ten){
+             this.language = ten;
+         }
+        }
+
+        var sv = new stu("van","ph26837","it17329","udpm");
+        document.writeln("sinh vien ten la "+sv.ten,+sv.speak("anh"))
+        document.writeln(" </br>ma sinh vien la: "+sv.masv)
+        document.writeln("</br>hoc lop : "+sv.lop)
+        document.writeln("</br>chuyen nganh : "+sv.chuyennganh)
+        document.writeln("</br> co the noi tieng :"+sv.language)
+    </script>
+</body>
+</html>

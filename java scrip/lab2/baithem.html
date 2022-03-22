@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          var number=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+          var n=prompt("nhập vào phần tử của mảng ");
+          
+
+          if(n>0 && n<=20){
+              alert("thoả mãn điều kiện ")
+          }else{
+              alert("không thỏa mãn điều kiện")
+          }
+          var maxInnumber=Math.max.apply(Math , number);
+          alert(" giá trị lớn nhất của mảng là "+ maxInnumber);
+
+          var sum=0;
+          
+          function sumArray(number){
+          for(var i=0;i<number;i++){
+              sum += number[i]
+          }
+          return sum;
+        }
+        alert("tổng của mảng là "+sum)
+
+        
+    </script>
+</body>
+</html>
