@@ -1,0 +1,99 @@
+.b>header{
+    background: chocolate;
+    background-image: none;
+}
+.b>nav{
+line-height:40px;
+ background-color:#2a3055;
+ color:white;
+ font-variant:small-caps;
+ text-align: left;
+}
+.b>nav>a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    padding:  10px;
+}
+.b>nav>a:hover{
+color: red;
+ text-decoration:underline;
+}
+
+
+.b>footer{
+border-top:5px double orangered;
+ line-height:50px;
+ background-color: black;
+ text-align: center;
+ font-variant:small-caps;
+ clear:both;
+ margin-left: 0px;
+ color: white;
+}
+
+.san-pham{
+    border-radius:10px;
+    box-shadow: 0 0 5px gray;
+    padding:10px;
+    margin:5px;
+    text-align: center;
+
+}
+.san-pham .ten{
+    font-size:larger;
+    font-variant: small-caps;
+    color: blue;
+
+}
+
+.san-pham img{
+
+    max-width:100%
+}
+.san-pham .gia{
+
+    color: red;
+    font-weight:bold;
+    font-size:larger;
+}
+.san-pham .gia del{
+
+    color:gray
+}
+.c:hover{
+    transform: scale(1.1);
+}
+.c{
+    width:25%;
+    float: left;
+}
+
+aside{
+    min-height:900px;
+    width:20%;
+    background-color:#FAE8F4;
+    float:left;
+   padding: 40px;
+   }
+aside> label{
+    padding: 40px;
+}
+.d>aside{
+min-height:900px;
+ width:20%;
+ background-color :#FAE8F4;
+ float:right;
+}
+.d > aside > ul> li > a {
+    color: black;
+}
+.d>aside  img{
+    width:100px;
+    float: left;
+    
+}
+    
+   
+
+   
